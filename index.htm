@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo on jquery</title>
+</head>
+
+<body>
+    <p id="demo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci eius sit molestias. In, aspernatur
+        perferendis voluptatem tenetur suscipit exercitationem dolores, itaque corporis deleniti voluptas veniam unde
+        consectetur inventore delectus iure ad necessitatibus rerum repudiandae, cum ipsa laboriosam ea. Minima hic
+        earum, molestias voluptate doloribus fugiat at et aperiam aut alias quae, modi accusamus incidunt. Dolor in
+        eveniet enim laboriosam, maiores perspiciatis ea deleniti optio magnam beatae, labore, dolores ratione! Nemo
+        vitae perspiciatis fugit vero delectus totam iusto placeat, error distinctio, eos a aspernatur eaque
+        consequuntur, qui ipsam pariatur similique nulla aperiam beatae hic autem nesciunt tempore. Fugit vero
+        accusantium distinctio!</p>
+    <button type="button" id="btn">Click me</button>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#btn").click(function () {
+            $("#demo").hide("slow");
+        });
+    });
+</script>
+
+</html>
